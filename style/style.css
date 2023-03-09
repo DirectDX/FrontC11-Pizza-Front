@@ -32,12 +32,13 @@ header {
   height: 700px;
   width: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .DeliveryMan {
+  border-radius: 10px;
   padding: 30px;
   color: red;
   width: 700px;
@@ -54,6 +55,7 @@ h2 {
   color: white;
 }
 .padreTop {
+  border-radius: 10px;
   width: 700px;
   height: 400px;
   background-color: #ffffff;
